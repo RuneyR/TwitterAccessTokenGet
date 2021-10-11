@@ -21,9 +21,6 @@ def check_ck_file():
                                 "Consumer Key! \nReplace this line with Consumer Token!")
         consumerFileWrite.close()
 
-    cFRead = open(cKeys, "r")
-    cFRead.close()
-
 
 def get_consumer_keys():
     cfr = open(cKeys, "r")
